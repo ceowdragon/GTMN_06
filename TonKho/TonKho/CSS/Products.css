@@ -1,0 +1,34 @@
+﻿body {
+    margin: 0;
+    position: relative;
+}
+
+.top-bar {
+    background-color: #E6E6E6;
+    width: 100%;
+    height: 142px;
+    margin-bottom: 9px;
+}
+
+.logo {
+    height: 40px;
+    background-color: #3FA9F5;
+}
+
+.main-content{
+    width: 100%;
+    height: calc(100vh - 151px);
+}
+
+.menu{
+    width: 330px;
+    margin-left: 10px;
+    background-color: #e6e6e6;
+    height: 100%;
+    float: left;
+}
+
+.content{
+    float: left;
+    margin-left: 20px;
+}
