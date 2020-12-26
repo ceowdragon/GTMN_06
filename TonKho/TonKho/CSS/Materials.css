@@ -1,0 +1,320 @@
+﻿body {
+    margin: 0;
+    position: relative;
+}
+
+.top-bar{
+    width: 100%;
+    height: 40px;
+    background-color: #54dd7c;
+    position: relative;
+}
+
+.top-bar .menu-icon{
+    width: 20px;
+    margin: 10px 30px 10px 20px;
+    float: left;
+}
+
+.top-bar .logo-img{
+    height: 40px;
+    margin: 0px 0px 0px 10px;
+    float: left;
+}
+
+.top-bar h1{
+    font-size: 20px;
+    color: #fff;
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 10px 0 0 20px;
+}
+
+.menu-content {
+    width: 250px;
+    height: calc(100% - 30px);
+    background-color: #fff;
+    margin: 15px 15px 15px 15px;
+    float: left;
+}
+
+.menu-list{
+    margin: 0 15px 10px 15px;
+    padding-top: 1px;
+}
+
+.menu-list ul{
+    margin: 0;
+    padding: 0;
+}
+
+.menu-list ul li{
+    list-style: none;
+    padding: 17px 0px 15px 10px;
+    border-bottom: 1px solid #54dd7c;
+}
+
+    .menu-list ul li a{
+        text-decoration: none;
+        color: #000;
+    }
+
+    .menu-list ul li:hover {
+        background-color: #54dd7c;
+        color: #fff;
+    }
+
+    .menu-list ul li:active {
+        background-color: #20971b;
+        color: #fff;
+    }
+
+.search-bar {
+    height: 40px;
+    border-bottom: 1px solid #808080;
+    margin-top: 20px;
+    padding-bottom: 5px;
+}
+
+.search-bar input{
+    width: 145px;
+    height: 20px;
+    margin-right: 5px;
+    margin-left: 10px;
+    float: left;
+    border-color: #54dd7c;
+    
+}
+
+.search-bar button{
+    margin-top: 1px;
+    background-color: #54dd7c;
+    border: none;
+    color: #fff;
+    padding: 5px 5px 5px 5px;
+}
+
+.main-content {
+    width: 100%;
+    height: calc(100vh - 40px);
+    background-color: #d9d9d9;
+    position: absolute;
+    clear: left;
+}
+
+.data-content {
+    width: calc(100% - 295px);
+    height: calc(100% - 30px);
+    margin: 15px 15px 15px 0;
+    float: left;
+}
+
+.tools-bar{
+    width: calc(100% - 5px);
+    height: 40px;
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding-left: 5px;
+}
+
+.tools-bar button{
+    height: 30px;
+    border: none;
+    border-radius: unset;
+    background-color: #fff;
+    margin-top: 5px;
+    color: #20971b;
+    font-family: 'Times New Roman';
+    font-size: 1.1em;
+}
+
+.tools-bar button:hover{
+    background-color: #54dd7c;
+    color: #fff;
+}
+
+.data-grid {
+    width: 100%;
+    height: calc(100% - 50px - 30px);
+    background-color: #fff;
+    overflow-y: scroll;
+}
+
+.data-table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+    .data-table th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #4CAF50;
+        color: white;
+    }
+
+.data-table th, td{
+    border: 1px solid #d9d9d9;
+    padding: 8px;
+}
+
+    .data-table tr:hover {
+        background-color: #54dd7c;
+    }
+
+.pick-up {
+    width: 15px;
+    height: 15px;
+    border-radius: unset;
+}
+
+.data-control{
+    width: 100%;
+    height: 20px;
+    background-color: #fff;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.detail-form{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    bottom: 0;
+    display: none;
+}
+
+.cover-background {
+    width: 100%;
+    height: 100%;
+    background-color: #808080;
+    opacity: 0.4;
+}
+
+.form{
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    background-color: #fff;
+    top: calc(50vh - 200px);
+    left: calc(50% - 300px);
+}
+
+.title-form{
+    width: calc(100% - 8px);
+    height: 25px;
+    background-color: #20971b;
+    line-height: 25px;
+    padding-left: 8px;
+    color: #fff;
+}
+
+.title-form button{
+    width: 22px;
+    height: 22px;
+    background-color: #20971b;
+    color: #fff;
+    border-color: #fff;
+    border-radius: 50%;
+    padding: 0;
+    float: right;
+    margin-top: 1px;
+    margin-right: 5px;
+}
+
+.form-content{
+    width: 100%;
+    height: calc(100% - 25px);
+}
+
+.form-content ul{
+    width: 100%;
+    height: calc(100% - 60px);
+    padding: 0;
+    margin: 0;
+}
+
+.form-content ul li{
+    list-style: none;
+    margin-left: 50px;
+    margin-top: 12px;
+}
+
+    .form-content ul li input {
+        position: absolute;
+        right: 170px;
+        width: 220px;
+    }
+
+    .form-content ul li #mate-code, #material-dimension {
+        position: absolute;
+        left: 205px;
+        width: 220px;
+    }
+
+    .form-content ul li #mio-code, #mio-prize, #mio-dimension, #material-quantity-send, #material-date {
+        position: absolute;
+        left: 205px;
+        width: 220px;
+    }
+
+    .form-content ul li #mate-code-po, #mate-prize, #mate-dimension, #material-date {
+        position: absolute;
+        left: 205px;
+        width: 220px;
+    }
+
+.form-content .button-area{
+    width: 90%;
+    height: 40px;
+    border-top: 1px solid #808080;
+    margin-left: 5%;
+}
+
+.button-area button{
+    float: right;
+    margin: 8px 10px 0 0;
+    background-color: #4CAF50;
+    border: none;
+    padding: 4px 10px 4px 10px;
+    color: #fff;
+}
+
+.import-form {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    bottom: 0;
+    display: none;
+}
+
+.purchase-form {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    bottom: 0;
+    display: none;
+}
+
+.produce-form {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    bottom: 0;
+    display: none;
+}
+
+.row-selected {
+    background-color: #dd3333;
+    color: #fff;
+}
+
+.row-pickuped {
+    background-color: #b7d300;
+    color: #fff;
+}
