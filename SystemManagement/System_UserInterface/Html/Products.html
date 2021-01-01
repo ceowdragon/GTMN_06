@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Exportation Management</title>
+    <link href="../Css/Products.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="top-bar">
+        <div class="menu-toggle">
+            <img class="menu-icon" src="../Resources/menu.png" />
+            <img class="logo-img" src="../Resources/box2.png" />
+        </div>
+    </div>
+    <div class="main-content">
+        <div class="menu-content">
+            <div class="search-bar">
+                <input type="text" name="search" value="" />
+                <button>Search</button>
+            </div>
+            <div class="menu-list">
+                <ul>
+                    <li>
+                        <a href="Materials.html">MATERIALS</a>
+                    </li>
+                    <li>
+                        <a href="NoGoodMaterial.html">NO-GOOD MATERIALS</a>
+                    </li>
+                    <li>
+                        <a href="#">NG WARNING</a>
+                    </li>
+                    <li>
+                        <a href="Products.html">PRODUCT EXPORTATION</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="data-content">
+            <div class="tools-bar">
+                <button id="detail" onclick="location.href='ProductStorages.html'"><i class="fa fa-edit"></i> Detail</button>
+                <button id="import"><i class="fa fa-arrow-down"></i> Export</button>
+                <button id="delete"><i class="fa fa-trash"></i> Print</button>
+            </div>
+            <div class="data-grid">
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>DATE</th>
+                            <th>CUSTOMER</th>
+                            <th>TAX</th>
+                            <th>PO NUMBER</th>
+                            <th>BILL NUMBER</th>
+                            <th>VALUE</th>
+                            <th>STATUS</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+            <div class="data-control">
+                <div class="he-1">
+                    <p>Summary: </p>
+                    <p>Deliveried: </p>
+                </div>
+                <div class="he-2">
+                    <div class="sum">100%</div>
+                    <div class="ng">44%</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../JQuery/jquery-3.5.1.min.js"></script>
+    <script src="../JQuery/ProductsJs.js"></script>
+</body>
+</html>

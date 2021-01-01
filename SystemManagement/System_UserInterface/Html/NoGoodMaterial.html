@@ -1,0 +1,119 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Quản lý Tồn kho</title>
+    <link href="../Css/MaterialsInOrder.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="top-bar">
+        <div class="menu-toggle">
+            <img class="menu-icon" src="../Resources/menu.png" />
+            <img class="logo-img" src="../Resources/box2.png" />
+        </div>
+    </div>
+    <div class="main-content">
+        <div class="menu-content">
+            <div class="search-bar">
+                <input type="text" name="search" value="" />
+                <button>Search</button>
+            </div>
+            <div class="menu-list">
+                <ul>
+                    <li>
+                        <a href="Materials.html">MATERIALS</a>
+                    </li>
+                    <li>
+                        <a href="NoGoodMaterial.html">NO-GOOD MATERIALS</a>
+                    </li>
+                    <li>
+                        <a href="#">NG WARNING</a>
+                    </li>
+                    <li>
+                        <a href="Products.html">PRODUCT EXPORTATION</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="data-content">
+            <div class="tools-bar">
+                <button id="update"><i class="fa fa-edit"></i> Report</button>
+                <button id="import"><i class="fa fa-arrow-down"></i> Solve</button>
+                <button id="delete"><i class="fa fa-trash"></i> Print</button>
+            </div>
+            <div class="data-grid">
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>CODE</th>
+                            <th>DIMENSION</th>
+                            <th>DETAIL</th>
+                            <th>FLUTE</th>
+                            <th>QUANTITY</th>
+                            <th>STATUS</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+            <div class="data-control">
+                <div class="he-1">
+                    <p>Summary: </p>
+                    <p>No-Good: </p>
+                </div>
+                <div class="he-2">
+                    <div class="sum">100%</div>
+                    <div class="ng">44%</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="detail-form">
+        <div class="cover-background"></div>
+        <div class="form">
+            <div class="title-form">
+                <span>Thông tin chi tiết NVL</span>
+                <button class="close"><i class="fa fa-close"></i></button>
+            </div>
+            <div class="form-content">
+                <ul>
+                    <li>
+                        <span>Mã nguyên vật liệu: </span>
+                        <label><strong id="mate-code"></strong></label>
+                    </li>
+                    <li>
+                        <span>Đơn giá: </span>
+                        <label><strong id="mate-prize"></strong></label>
+                    </li>
+                    <li>
+                        <span>Kết cấu:</span>
+                        <label><strong id="material-dimension"></strong></label>
+                    </li>
+                    <li>
+                        <span>Số lượng:</span>
+                        <input id="material-quantity" type="text" />
+                    </li>
+                    <li>
+                        <span>Kho:</span>
+                        <input id="storage-code" type="text" />
+                    </li>
+                    <li>
+                        <span>Ghi chú:</span>
+                        <input id="material-note" type="text" />
+                    </li>
+                </ul>
+                <div class="button-area">
+                    <button class="close">Thoát</button>
+                    <button id="save"><i class="fa fa-save"></i> Lưu</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../JQuery/jquery-3.5.1.min.js"></script>
+    <script src="../JQuery/MaterialsInOrder.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+C:\Users\User\Desktop\QLTonKho\QLTonKho\SystemManagement\System_CommonEntity\bin\Debug\System_CommonEntity.dll
+C:\Users\User\Desktop\QLTonKho\QLTonKho\SystemManagement\System_CommonEntity\bin\Debug\System_CommonEntity.pdb
+C:\Users\User\Desktop\QLTonKho\QLTonKho\SystemManagement\System_CommonEntity\obj\Debug\System_CommonEntity.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\QLTonKho\QLTonKho\SystemManagement\System_CommonEntity\obj\Debug\System_CommonEntity.dll
+C:\Users\User\Desktop\QLTonKho\QLTonKho\SystemManagement\System_CommonEntity\obj\Debug\System_CommonEntity.pdb
+C:\Users\User\Desktop\QLTonKho\QLTonKho\SystemManagement\System_CommonEntity\obj\Debug\System_CommonEntity.csprojAssemblyReference.cache
+D:\IT\CODE\QLTonKho\SystemManagement\System_CommonEntity\bin\Debug\System_CommonEntity.dll
+D:\IT\CODE\QLTonKho\SystemManagement\System_CommonEntity\bin\Debug\System_CommonEntity.pdb
+D:\IT\CODE\QLTonKho\SystemManagement\System_CommonEntity\obj\Debug\System_CommonEntity.csproj.CoreCompileInputs.cache
+D:\IT\CODE\QLTonKho\SystemManagement\System_CommonEntity\obj\Debug\System_CommonEntity.dll
+D:\IT\CODE\QLTonKho\SystemManagement\System_CommonEntity\obj\Debug\System_CommonEntity.pdb
+D:\IT\CODE\QLTonKho\SystemManagement\System_CommonEntity\obj\Debug\System_CommonEntity.csprojAssemblyReference.cache

@@ -1,0 +1,159 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Quản lý Kho Nguyên vật liệu</title>
+    <link href="../Css/MaterialStorages.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="top-bar">
+        <div class="menu-toggle">
+            <img class="menu-icon" src="../Resources/menu.png" />
+            <img class="logo-img" src="../Resources/logo-bimi.png" />
+            <h1>BÌNH MINH VINA</h1>
+        </div>
+    </div>
+    <div class="main-content">
+        <div class="menu-content">
+            <div class="search-bar">
+                <input type="text" name="search" value="" />
+                <button>Tìm kiếm</button>
+            </div>
+            <div class="menu-list">
+                <ul>
+                    <li>
+                        <a href="Materials.html">DANH MỤC NVL</a>
+                    </li>
+                    <li>
+                        <a href="MaterialsInOrder.html">ĐƠN MUA NVL</a>
+                    </li>
+                    <li>
+                        <a href="MaterialStorages.html">THỐNG KÊ KHO</a>
+                    </li>
+                    <li>
+                        <a href="Products.html">DANH MỤC THÀNH PHẨM</a>
+                    </li>
+                    <li>
+                        <a href="ProductStorages.html">KHO THÀNH PHẨM</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="data-content">
+            <div class="tools-bar">
+                <button id="produce"><i class="fa fa-arrow-down"></i> Sản xuất</button>
+                <button id="update"><i class="fa fa-edit"></i> Cập nhật</button>
+                <button id="statistic"><i class="fa fa-trash"></i> Thống kê</button>
+            </div>
+            <div class="data-grid">
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>STT</th>
+                            <th>MÃ KHO</th>
+                            <th>MÃ GIẤY NVL</th>
+                            <th>KẾT CẤU</th>
+                            <th>SỐ LƯỢNG</th>.
+                            <th>NGÀY NHẬP</th>
+                            <th>GHI CHÚ</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+            <div class="data-control">
+                TRANG 1
+            </div>
+        </div>
+    </div>
+    <div class="detail-form">
+        <div class="cover-background"></div>
+        <div class="form">
+            <div class="title-form">
+                <span>Thông tin chi tiết NVL</span>
+                <button class="close"><i class="fa fa-close"></i></button>
+            </div>
+            <div class="form-content">
+                <ul>
+                    <li>
+                        <span>Mã nguyên vật liệu: </span>
+                        <label><strong id="mate-code"></strong></label>
+                    </li>
+                    <li>
+                        <span>Đơn giá: </span>
+                        <label><strong id="mate-prize"></strong></label>
+                    </li>
+                    <li>
+                        <span>Kết cấu:</span>
+                        <label><strong id="material-dimension"></strong></label>
+                    </li>
+                    <li>
+                        <span>Số lượng:</span>
+                        <input id="material-quantity" type="text" />
+                    </li>
+                    <li>
+                        <span>Kho:</span>
+                        <input id="storage-code" type="text" />
+                    </li>
+                    <li>
+                        <span>Ghi chú:</span>
+                        <input id="material-note" type="text" />
+                    </li>
+                </ul>
+                <div class="button-area">
+                    <button class="close">Thoát</button>
+                    <button id="save"><i class="fa fa-save"></i> Lưu</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="produce-form">
+        <div class="cover-background"></div>
+        <div class="form">
+            <div class="title-form">
+                <span>Chi tiết xuất hàng</span>
+                <button class="close"><i class="fa fa-close"></i></button>
+            </div>
+            <div class="form-content">
+                <ul>
+                    <li>
+                        <span>Mã nguyên vật liệu: </span>
+                        <label><strong id="ms-code"></strong></label>
+                    </li>
+                    <li>
+                        <span>Kết cấu:</span>
+                        <label><strong id="ms-dimension"></strong></label>
+                    </li>
+                    <li>
+                        <span>Kho:</span>
+                        <label><strong id="ms-storage"></strong></label>
+                    </li>
+                    <li>
+                        <span>Số lượng tồn:</span>
+                        <label><strong id="ms-quantity"></strong></label>
+                    </li>
+                    <li>
+                        <span>Số lượng xuất:</span>
+                        <input id="produce-quantity" type="text" />
+                    </li>
+                    <li>
+                        <span>Ghi chú:</span>
+                        <input id="produce-note" type="text" />
+                    </li>
+                    <li><label><strong id="id"></strong></label></li>
+                </ul>
+                <div class="button-area">
+                    <button class="close">Thoát</button>
+                    <button id="confirm"><i class="fa fa-save"></i> Xác nhận</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../JQuery/jquery-3.5.1.min.js"></script>
+    <script src="../JQuery/MaterialStoragesJs.js"></script>
+</body>
+</html>

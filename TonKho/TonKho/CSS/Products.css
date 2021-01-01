@@ -15,6 +15,28 @@
     background-color: #3FA9F5;
 }
 
+.logo-img{
+    height: 30px;
+    float: left;
+    margin: 3px;
+    margin-left: 20px;
+}
+
+.title{
+    margin-top: 10px;
+}
+
+.title a{
+    margin-left: 20px;
+}
+
+.header img{
+    width: 40px;
+    float: left;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
 .main-content{
     width: 100%;
     height: calc(100vh - 151px);
