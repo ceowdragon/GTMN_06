@@ -11,10 +11,10 @@ namespace System_CommonEntity
         public int MaterialsinorderId { get; set; }
         public string MaterialCode { get; set; }
         public string MaterialDimension { get; set; }
-        public int MaterialPrize { get; set; }
-        public int MaterialQuantitySend { get; set; }
-        public int MaterialAmount { get; set; }
-        public int MaterialQuantityReceive { get; set; }
+        public string MaterialPrize { get; set; }
+        public string MaterialQuantitySend { get; set; }
+        public string MaterialAmount { get; set; }
+        public string MaterialQuantityReceive { get; set; }
         public string MaterialNote { get; set; }
     }
 }

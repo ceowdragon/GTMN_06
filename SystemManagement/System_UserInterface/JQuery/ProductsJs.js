@@ -36,14 +36,10 @@ class ProductsJs {
                             <td>` + item.ProductId + `</td>
                             <td>` + item.ProductCode + `</td>
                             <td>` + item.ProductName + `</td>
-                            <td>` + item.ProductDimensionX + `</td>
-                            <td>` + item.ProductDimensionY + `</td>
-                            <td>` + item.ProductDimensionZ + `</td>
+                            <td>` + item.ProductDimension + `</td>
                             <td>` + item.ProductFsc + `</td>
                             <td>` + item.ProductUnit + `</td>
                             <td>` + item.ProductFlute + `</td>
-                            <td>` + item.ProductShape + `</td>
-                            <td>` + item.ProductPrize + `</td>
                         </tr>`);
                 $('.data-table tbody').append(strHTML);
             })

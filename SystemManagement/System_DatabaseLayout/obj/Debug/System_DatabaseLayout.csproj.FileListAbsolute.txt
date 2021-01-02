@@ -25,3 +25,12 @@ F:\STUDY\New\QLTonKho\SystemManagement\System_DatabaseLayout\obj\Debug\System_Da
 F:\STUDY\New\QLTonKho\SystemManagement\System_DatabaseLayout\obj\Debug\System_DatabaseLayout.csproj.CopyComplete
 F:\STUDY\New\QLTonKho\SystemManagement\System_DatabaseLayout\obj\Debug\System_DatabaseLayout.dll
 F:\STUDY\New\QLTonKho\SystemManagement\System_DatabaseLayout\obj\Debug\System_DatabaseLayout.pdb
+D:\IT\CODE\GTMN_06\SystemManagement\System_DatabaseLayout\bin\Debug\System_DatabaseLayout.dll
+D:\IT\CODE\GTMN_06\SystemManagement\System_DatabaseLayout\bin\Debug\System_DatabaseLayout.pdb
+D:\IT\CODE\GTMN_06\SystemManagement\System_DatabaseLayout\bin\Debug\System_CommonEntity.dll
+D:\IT\CODE\GTMN_06\SystemManagement\System_DatabaseLayout\bin\Debug\System_CommonEntity.pdb
+D:\IT\CODE\GTMN_06\SystemManagement\System_DatabaseLayout\obj\Debug\System_DatabaseLayout.csprojAssemblyReference.cache
+D:\IT\CODE\GTMN_06\SystemManagement\System_DatabaseLayout\obj\Debug\System_DatabaseLayout.csproj.CoreCompileInputs.cache
+D:\IT\CODE\GTMN_06\SystemManagement\System_DatabaseLayout\obj\Debug\System_DatabaseLayout.csproj.CopyComplete
+D:\IT\CODE\GTMN_06\SystemManagement\System_DatabaseLayout\obj\Debug\System_DatabaseLayout.dll
+D:\IT\CODE\GTMN_06\SystemManagement\System_DatabaseLayout\obj\Debug\System_DatabaseLayout.pdb

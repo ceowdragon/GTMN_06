@@ -54,7 +54,7 @@ class MaterialJs {
                             <td>` + item.MaterialStructure + `</td>
                             <td>` + item.MaterialPrize + `</td>
                         </tr>`);
-                $('.data-table tbody').prepend(strHTML);
+                $('.data-table tbody').append(strHTML);
             })
             }).fail(function (res) {
                 alert("Tải dữ liệu thất bại!");
