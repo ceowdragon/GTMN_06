@@ -41,6 +41,7 @@ class ProductsJs {
                             <td>` + item.ProductUnit + `</td>
                             <td>` + item.ProductFlute + `</td>
                         </tr>`);
+                debugger;
                 $('.data-table tbody').append(strHTML);
             })
         }).fail(function (res) {

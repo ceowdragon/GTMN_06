@@ -53,15 +53,15 @@ namespace System_DatabaseLayout
             DatabaseConnection();
             sqlConnection.Open();
 
-            sqlCommand.CommandText = "EXEC ProcProductStoragesInsert @id, @codes, @code, @dimension, @quantity, @delivery, @note";
-            sqlCommand.Parameters.AddWithValue("@id", productStorages.ProductstorageId);
-            sqlCommand.Parameters.AddWithValue("@codes", productStorages.ProductstorageCode);
-            sqlCommand.Parameters.AddWithValue("@code", productStorages.ProductCode);
-            sqlCommand.Parameters.AddWithValue("@dimension", productStorages.ProductDimension);
-            sqlCommand.Parameters.AddWithValue("@quantity", productStorages.ProductQuantity);
-            sqlCommand.Parameters.AddWithValue("@delivery", productStorages.ProductDelivery);
-            sqlCommand.Parameters.AddWithValue("@note", productStorages.ProductstorageNote);
-            sqlCommand.ExecuteNonQuery();
+            //sqlCommand.CommandText = "EXEC ProcProductStoragesInsert @id, @codes, @code, @dimension, @quantity, @delivery, @note";
+            //sqlCommand.Parameters.AddWithValue("@id", productStorages.ProductstorageId);
+            //sqlCommand.Parameters.AddWithValue("@codes", productStorages.ProductstorageCode);
+            //sqlCommand.Parameters.AddWithValue("@code", productStorages.ProductCode);
+            //sqlCommand.Parameters.AddWithValue("@dimension", productStorages.ProductDimension);
+            //sqlCommand.Parameters.AddWithValue("@quantity", productStorages.ProductQuantity);
+            //sqlCommand.Parameters.AddWithValue("@delivery", productStorages.ProductDelivery);
+            //sqlCommand.Parameters.AddWithValue("@note", productStorages.ProductstorageNote);
+            //sqlCommand.ExecuteNonQuery();
 
             sqlConnection.Close();
         }
@@ -71,15 +71,15 @@ namespace System_DatabaseLayout
             DatabaseConnection();
             sqlConnection.Open();
 
-            sqlCommand.CommandText = "EXEC ProcProductStoragesUpdate @id, @codes, @code, @dimension, @quantity, @delivery, @note";
-            sqlCommand.Parameters.AddWithValue("@id", productStorages.ProductstorageId);
-            sqlCommand.Parameters.AddWithValue("@codes", productStorages.ProductstorageCode);
-            sqlCommand.Parameters.AddWithValue("@code", productStorages.ProductCode);
-            sqlCommand.Parameters.AddWithValue("@dimension", productStorages.ProductDimension);
-            sqlCommand.Parameters.AddWithValue("@quantity", productStorages.ProductQuantity);
-            sqlCommand.Parameters.AddWithValue("@delivery", productStorages.ProductDelivery);
-            sqlCommand.Parameters.AddWithValue("@note", productStorages.ProductstorageNote);
-            sqlCommand.ExecuteNonQuery();
+            //sqlCommand.CommandText = "EXEC ProcProductStoragesUpdate @id, @codes, @code, @dimension, @quantity, @delivery, @note";
+            //sqlCommand.Parameters.AddWithValue("@id", productStorages.ProductstorageId);
+            //sqlCommand.Parameters.AddWithValue("@codes", productStorages.ProductstorageCode);
+            //sqlCommand.Parameters.AddWithValue("@code", productStorages.ProductCode);
+            //sqlCommand.Parameters.AddWithValue("@dimension", productStorages.ProductDimension);
+            //sqlCommand.Parameters.AddWithValue("@quantity", productStorages.ProductQuantity);
+            //sqlCommand.Parameters.AddWithValue("@delivery", productStorages.ProductDelivery);
+            //sqlCommand.Parameters.AddWithValue("@note", productStorages.ProductstorageNote);
+            //sqlCommand.ExecuteNonQuery();
 
             sqlConnection.Close();
         }

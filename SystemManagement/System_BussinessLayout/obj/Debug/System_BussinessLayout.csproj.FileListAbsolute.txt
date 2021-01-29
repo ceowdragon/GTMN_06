@@ -42,3 +42,14 @@ D:\IT\CODE\GTMN_06\SystemManagement\System_BussinessLayout\obj\Debug\System_Buss
 D:\IT\CODE\GTMN_06\SystemManagement\System_BussinessLayout\obj\Debug\System_BussinessLayout.csproj.CopyComplete
 D:\IT\CODE\GTMN_06\SystemManagement\System_BussinessLayout\obj\Debug\System_BussinessLayout.dll
 D:\IT\CODE\GTMN_06\SystemManagement\System_BussinessLayout\obj\Debug\System_BussinessLayout.pdb
+D:\Study\Code\GTMN_06\SystemManagement\System_BussinessLayout\bin\Debug\System_BussinessLayout.dll
+D:\Study\Code\GTMN_06\SystemManagement\System_BussinessLayout\bin\Debug\System_BussinessLayout.pdb
+D:\Study\Code\GTMN_06\SystemManagement\System_BussinessLayout\bin\Debug\System_CommonEntity.dll
+D:\Study\Code\GTMN_06\SystemManagement\System_BussinessLayout\bin\Debug\System_DatabaseLayout.dll
+D:\Study\Code\GTMN_06\SystemManagement\System_BussinessLayout\bin\Debug\System_CommonEntity.pdb
+D:\Study\Code\GTMN_06\SystemManagement\System_BussinessLayout\bin\Debug\System_DatabaseLayout.pdb
+D:\Study\Code\GTMN_06\SystemManagement\System_BussinessLayout\obj\Debug\System_BussinessLayout.csprojAssemblyReference.cache
+D:\Study\Code\GTMN_06\SystemManagement\System_BussinessLayout\obj\Debug\System_BussinessLayout.csproj.CoreCompileInputs.cache
+D:\Study\Code\GTMN_06\SystemManagement\System_BussinessLayout\obj\Debug\System_BussinessLayout.csproj.CopyComplete
+D:\Study\Code\GTMN_06\SystemManagement\System_BussinessLayout\obj\Debug\System_BussinessLayout.dll
+D:\Study\Code\GTMN_06\SystemManagement\System_BussinessLayout\obj\Debug\System_BussinessLayout.pdb

@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <title>Quản lý Tồn kho</title>
-    <link href="../Css/MaterialsInOrder.css" rel="stylesheet" />
+    <link href="../Css/NoGoodMaterial.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
@@ -75,45 +75,48 @@
         <div class="cover-background"></div>
         <div class="form">
             <div class="title-form">
-                <span>Thông tin chi tiết NVL</span>
+                <span>Detail of NG-products</span>
                 <button class="close"><i class="fa fa-close"></i></button>
             </div>
             <div class="form-content">
-                <ul>
-                    <li>
-                        <span>Mã nguyên vật liệu: </span>
-                        <label><strong id="mate-code"></strong></label>
-                    </li>
-                    <li>
-                        <span>Đơn giá: </span>
-                        <label><strong id="mate-prize"></strong></label>
-                    </li>
-                    <li>
-                        <span>Kết cấu:</span>
-                        <label><strong id="material-dimension"></strong></label>
-                    </li>
-                    <li>
-                        <span>Số lượng:</span>
-                        <input id="material-quantity" type="text" />
-                    </li>
-                    <li>
-                        <span>Kho:</span>
-                        <input id="storage-code" type="text" />
-                    </li>
-                    <li>
-                        <span>Ghi chú:</span>
-                        <input id="material-note" type="text" />
-                    </li>
-                </ul>
+                <label><strong id="ng-id">GER0003</strong></label><br />
+                <label><strong id="ng-name">Carton box for Munich</strong></label>
+                <div class="info-area">
+                    <div class="col-1">
+                        <ul>
+                            <li>Dimension: 1100x950x775 (mm)</li>
+                            <li>Detail: 2TKT150-3MCA125</li>
+                            <li>Flute: AB</li>
+                        </ul>
+                    </div>
+                    <div class="col-2">
+                        <ul>
+                            <li>Prize: $4.25</li>
+                            <li>Humidity: K3K</li>
+                            <li>Compression: 14.4</li>
+                        </ul>
+                    </div>
+                </div>
+                <br />
+                <label><strong id="ng-solve">Treatment</strong></label>
+                <div class="treatment">
+                    <span id="aa">Case:</span>
+                    <span id="bb">Quantity:</span>
+                    <div class="detail-treatment">
+                        <input class="case" />
+                        <input class="quanti" />
+                    </div>
+                </div>
+                <button id="ad"><i class="fa fa-plus-square"></i></button>
                 <div class="button-area">
-                    <button class="close">Thoát</button>
                     <button id="save"><i class="fa fa-save"></i> Lưu</button>
+                    <button class="close">Thoát</button>
                 </div>
             </div>
         </div>
     </div>
 
     <script src="../JQuery/jquery-3.5.1.min.js"></script>
-    <script src="../JQuery/MaterialsInOrder.js"></script>
+    <script src="../JQuery/NoGoodMaterial.js"></script>
 </body>
 </html>

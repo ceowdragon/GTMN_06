@@ -15,8 +15,7 @@ namespace System_CommonEntity
         public string ProductFsc { get; set; }
         public string ProductUnit { get; set; }
         public string ProductFlute { get; set; }
-        public string ProductShape { get; set; }
-        public int ProductPrize { get; set; }
+
 
     }
 }

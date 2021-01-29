@@ -32,8 +32,6 @@ namespace System_UserInterface.Controllers
         [Route("")]
         public int Post([FromBody]ProductStorages productStorages)
         {
-            productStoragesBL.getData();
-            productStoragesBL.InsertProductStorages(productStorages);
             return 1;
         }
 
@@ -41,7 +39,6 @@ namespace System_UserInterface.Controllers
         [Route("")]
         public int Put([FromBody]ProductStorages productStorages)
         {
-            productStoragesBL.UpdateProductStorages(productStorages);
             return 1;
         }
 

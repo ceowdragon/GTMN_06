@@ -27,12 +27,12 @@ class ProductStorages {
             $.each(res, function (index, item) {
                 var strHtml = $(`<tr>
                             <td>` + item.ProductstorageId + `</td>
+                            <td>` + item.ProductstorageDate + `</td>
+                            <td>` + item.ProductstorageNumber + `</td>
                             <td>` + item.ProductstorageCode + `</td>
-                            <td>` + item.ProductCode + `</td>
-                            <td>` + item.ProductDimension + `</td>
-                            <td>` + item.ProductQuantity + `</td>
-                            <td>` + item.ProductDelivery + `</td>
-                            <td>` + item.ProductstorageNote + `</td>
+                            <td>` + item.ProductstorageName + `</td>
+                            <td>` + item.ProductUnit + `</td>
+                            <td>` + item.ProductstorageQuantity + `</td>
                         </tr>`);
                 $('.data-table tbody').append(strHtml);
             })

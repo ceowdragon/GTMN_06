@@ -81,7 +81,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Css\Materials.css" />
-    <Content Include="Css\MaterialsInOrder.css" />
+    <Content Include="Css\NoGoodMaterial.css" />
     <Content Include="Css\MaterialStorages.css" />
     <Content Include="Css\Products.css" />
     <Content Include="Css\ProductStorages.css" />
@@ -92,7 +92,7 @@
     <Content Include="Html\Products.html" />
     <Content Include="Html\ProductStorages.html" />
     <Content Include="JQuery\jquery-3.5.1.min.js" />
-    <Content Include="JQuery\MaterialsInOrder.js" />
+    <Content Include="JQuery\NoGoodMaterial.js" />
     <Content Include="JQuery\MaterialsJs.js" />
     <Content Include="JQuery\MaterialStoragesJs.js" />
     <Content Include="JQuery\ProductsJs.js" />

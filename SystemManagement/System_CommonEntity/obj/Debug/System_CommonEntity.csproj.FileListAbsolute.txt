@@ -16,3 +16,9 @@ D:\IT\CODE\GTMN_06\SystemManagement\System_CommonEntity\obj\Debug\System_CommonE
 D:\IT\CODE\GTMN_06\SystemManagement\System_CommonEntity\obj\Debug\System_CommonEntity.csproj.CoreCompileInputs.cache
 D:\IT\CODE\GTMN_06\SystemManagement\System_CommonEntity\obj\Debug\System_CommonEntity.dll
 D:\IT\CODE\GTMN_06\SystemManagement\System_CommonEntity\obj\Debug\System_CommonEntity.pdb
+D:\Study\Code\GTMN_06\SystemManagement\System_CommonEntity\bin\Debug\System_CommonEntity.dll
+D:\Study\Code\GTMN_06\SystemManagement\System_CommonEntity\bin\Debug\System_CommonEntity.pdb
+D:\Study\Code\GTMN_06\SystemManagement\System_CommonEntity\obj\Debug\System_CommonEntity.csprojAssemblyReference.cache
+D:\Study\Code\GTMN_06\SystemManagement\System_CommonEntity\obj\Debug\System_CommonEntity.csproj.CoreCompileInputs.cache
+D:\Study\Code\GTMN_06\SystemManagement\System_CommonEntity\obj\Debug\System_CommonEntity.dll
+D:\Study\Code\GTMN_06\SystemManagement\System_CommonEntity\obj\Debug\System_CommonEntity.pdb
