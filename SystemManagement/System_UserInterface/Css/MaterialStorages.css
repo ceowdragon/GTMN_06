@@ -6,7 +6,7 @@
 .top-bar {
     width: 100%;
     height: 40px;
-    background-color: #54dd7c;
+    background-color: #00AEEF;
     position: relative;
 }
 
@@ -37,6 +37,7 @@
     background-color: #fff;
     margin: 15px 15px 15px 15px;
     float: left;
+    box-shadow: 4px 4px 7px grey;
 }
 
 .menu-list {
@@ -52,7 +53,7 @@
         .menu-list ul li {
             list-style: none;
             padding: 17px 0px 15px 10px;
-            border-bottom: 1px solid #54dd7c;
+            border-bottom: 1px solid #00AEEF;
         }
 
             .menu-list ul li a {
@@ -61,7 +62,7 @@
             }
 
             .menu-list ul li:hover {
-                background-color: #54dd7c;
+                background-color: #00AEEF;
                 color: #fff;
             }
 
@@ -83,12 +84,12 @@
         margin-right: 5px;
         margin-left: 10px;
         float: left;
-        border-color: #54dd7c;
+        border-color: #00AEEF;
     }
 
     .search-bar button {
         margin-top: 1px;
-        background-color: #54dd7c;
+        background-color: #00AEEF;
         border: none;
         color: #fff;
         padding: 5px 5px 5px 5px;
@@ -97,7 +98,7 @@
 .main-content {
     width: 100%;
     height: calc(100vh - 40px);
-    background-color: #d9d9d9;
+    background-color: #f1f1f1;
     position: absolute;
     clear: left;
 }
@@ -118,6 +119,8 @@
 }
 
     .tools-bar button {
+        display: block;
+        min-width: 40px;
         height: 30px;
         border: none;
         border-radius: unset;
@@ -129,7 +132,7 @@
     }
 
         .tools-bar button:hover {
-            background-color: #54dd7c;
+            background-color: #00AEEF;
             color: #fff;
         }
 
@@ -159,7 +162,7 @@
     }
 
     .data-table tr:hover {
-        background-color: #54dd7c;
+        background-color: #00AEEF;
     }
 
 .data-control {

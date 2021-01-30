@@ -7,7 +7,7 @@
 .top-bar {
     width: 100%;
     height: 40px;
-    background-color: #3fa9f5;
+    background-color: #00AEEF;
     position: relative;
 }
 
@@ -38,6 +38,7 @@
     background-color: #fff;
     margin: 15px 15px 15px 15px;
     float: left;
+    box-shadow: 4px 4px 7px grey;
 }
 
 .menu-list {
@@ -53,7 +54,7 @@
         .menu-list ul li {
             list-style: none;
             padding: 17px 0px 15px 10px;
-            border-bottom: 1px solid #3fa9f5;
+            border-bottom: 1px solid #00AEEF;
         }
 
             .menu-list ul li a {
@@ -62,12 +63,12 @@
             }
 
             .menu-list ul li:hover {
-                background-color: #3fa9f5;
+                background-color: #00AEEF;
                 color: #fff;
             }
 
             .menu-list ul li:active {
-                background-color: #0078d4;
+                background-color: #0076A3;
                 color: #fff;
             }
 
@@ -84,12 +85,12 @@
         margin-right: 5px;
         margin-left: 10px;
         float: left;
-        border-color: #3fa9f5;
+        border-color: #00AEEF;
     }
 
     .search-bar button {
         margin-top: 1px;
-        background-color: #3fa9f5;
+        background-color: #00AEEF;
         border: none;
         color: #fff;
         padding: 5px 5px 5px 5px;
@@ -98,7 +99,7 @@
 .main-content {
     width: 100%;
     height: calc(100vh - 40px);
-    background-color: #d9d9d9;
+    background-color: #f1f1f1;
     position: absolute;
     clear: left;
 }
@@ -116,21 +117,23 @@
     background-color: #fff;
     margin-bottom: 10px;
     padding-left: 5px;
+    box-shadow: 2px 2px 3px grey;
 }
 
     .tools-bar button {
-        height: 30px;
+        min-width: 40px;
+        min-height: 30px;
         border: none;
         border-radius: unset;
         background-color: #fff;
         margin-top: 5px;
-        color: #0078d4;
+        color: #0076A3;
         font-family: 'Times New Roman';
         font-size: 1.1em;
     }
 
         .tools-bar button:hover {
-            background-color: #3fa9f5;
+            background-color: #00AEEF;
             color: #fff;
         }
 
@@ -139,6 +142,7 @@
     height: calc(100% - 50px);
     background-color: #fff;
     overflow-y: scroll;
+    box-shadow: 2px 2px 3px grey;
 }
 
 .data-table {
@@ -150,7 +154,7 @@
         padding-top: 12px;
         padding-bottom: 12px;
         text-align: left;
-        background-color: #0078d4;
+        background-color: #0076A3;
         color: white;
     }
 
@@ -160,7 +164,7 @@
     }
 
     .data-table tr:hover {
-        background-color: #3fa9f5;
+        background-color: #00AEEF;
     }
 
 .detail-form {
@@ -191,7 +195,7 @@
 .title-form {
     width: calc(100% - 8px);
     height: 25px;
-    background-color: #0078d4;
+    background-color: #0076A3;
     line-height: 25px;
     padding-left: 8px;
     color: #fff;
@@ -200,7 +204,7 @@
     .title-form button {
         width: 22px;
         height: 22px;
-        background-color: #0078d4;
+        background-color: #0076A3;
         color: #fff;
         border-color: #fff;
         border-radius: 50%;
@@ -262,7 +266,7 @@
 .button-area button {
     float: right;
     margin: 8px 10px 0 0;
-    background-color: #0078d4;
+    background-color: #0076A3;
     border: none;
     padding: 4px 10px 4px 10px;
     color: #fff;

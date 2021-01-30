@@ -83,12 +83,14 @@
     <Content Include="Css\Materials.css" />
     <Content Include="Css\NoGoodMaterial.css" />
     <Content Include="Css\MaterialStorages.css" />
+    <Content Include="Css\NoGoodWarning.css" />
     <Content Include="Css\Products.css" />
     <Content Include="Css\ProductStorages.css" />
     <Content Include="Global.asax" />
     <Content Include="Html\Materials.html" />
     <Content Include="Html\NoGoodMaterial.html" />
     <Content Include="Html\MaterialStorages.html" />
+    <Content Include="Html\NoGoodWarning.html" />
     <Content Include="Html\Products.html" />
     <Content Include="Html\ProductStorages.html" />
     <Content Include="JQuery\jquery-3.5.1.min.js" />
